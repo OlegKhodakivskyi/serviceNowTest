@@ -1,0 +1,12 @@
+@import "@servicenow/sass-kit/host";
+@import "@servicenow/sass-utility/index";
+
+div {
+  font-size: 22px;
+  min-width: 1024px;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  color: bisque;
+  background: cadetblue;
+}

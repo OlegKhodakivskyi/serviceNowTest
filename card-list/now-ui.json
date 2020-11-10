@@ -1,0 +1,17 @@
+{
+	"components": {
+	    "x-551592-card-list": {
+	        "innerComponents": [
+				"now-template-card"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "card-list",
+				"icon": "document-outline",
+				"description": "cardListTest",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_551592_test_ca_0"
+}
