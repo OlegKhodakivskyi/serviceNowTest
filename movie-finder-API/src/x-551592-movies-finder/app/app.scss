@@ -1,0 +1,56 @@
+@import '@servicenow/sass-kit/host';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /* outline: 2px solid red; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgba(56, 145, 233, 0.671);
+}
+
+.card-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header {
+  &__title {
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+  }
+}
+
+.dropdown {
+  margin-left: 50px;
+}

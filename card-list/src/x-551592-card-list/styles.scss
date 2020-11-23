@@ -1,11 +1,14 @@
 @import "@servicenow/sass-kit/host";
 
-body {
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  row-gap: 5px;
+  column-gap: 5px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-div {
+.card {
   min-width: 400px;
-  min-height: auto;
 }

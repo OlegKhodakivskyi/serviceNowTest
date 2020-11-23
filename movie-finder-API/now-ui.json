@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-551592-movies-finder": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "movie-finder-API",
+				"icon": "document-outline",
+				"description": "movie finder by filter with options",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_551592_moviesf_1"
+}

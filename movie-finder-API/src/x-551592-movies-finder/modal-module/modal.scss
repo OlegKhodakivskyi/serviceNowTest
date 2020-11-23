@@ -1,0 +1,37 @@
+.modal {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__img {
+    img {
+      max-width: 200px;
+    }
+  }
+
+  &__title {
+    padding: 15px 15px;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  &__overview {
+    padding: 10px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  &__rating {
+    color: goldenrod;
+  }
+}
