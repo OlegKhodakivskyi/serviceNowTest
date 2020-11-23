@@ -19,7 +19,7 @@ export default state => {
       <div>
         <card-items className="card-items" movies={movies} />
       </div>
-      <app-footer activePage={activePage} totalPages={totalPages} />
+      <pagination-module activePage={activePage} totalPages={totalPages} />
     </div>
   );
 };

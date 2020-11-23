@@ -3,7 +3,7 @@ import snabbdom from '@servicenow/ui-renderer-snabbdom';
 import view from './view';
 import styles from './pagination.scss';
 
-createCustomElement('app-footer', {
+createCustomElement('pagination-module', {
   renderer: { type: snabbdom },
   view,
   properties: {
